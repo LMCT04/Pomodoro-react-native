@@ -21,8 +21,6 @@ export default function Header({
     setTime(newTime * 60);
   }
 
-  //MINUTO VIDEO 1:23:28
-
   return (
     <View style={{ flexDirection: "row" }}>
       {options.map((item, index) => {
